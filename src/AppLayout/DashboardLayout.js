@@ -54,7 +54,7 @@ export default function DashboardLayout() {
           </Drawer>
           <Box style={{ backgroundColor: '#f6f7ff' }}
               component="main"
-              className={`main-contentpy-5  ${!open ? 'collapsed' : ''}`}
+              className={`main-contentpy-5  w-full overflow-x-auto  ${!open ? 'collapsed' : ''}`}
               sx={{
                   flexGrow: 1,
                   padding: 3,

@@ -93,13 +93,13 @@ export default function LiveFleetTracking({ data }) {
                 key={i}
                 className={i % 2 === 0 ? "bg-gray-100" : "bg-white"}
               >
-                <td className="p-3">{i + 1}</td>
-                <td className="p-3">{row.vehicleNumber}</td>
-                <td className="p-3">{row.depot}</td>
-                <td className="p-3">{row.route}</td>
-                <td className="p-3">{row.currentLocation}</td>
-                <td className="p-3 text-red-600 font-medium">{row.status}</td>
-                <td className="p-3">
+                <td className="p-3 font-medium">{i + 1}</td>
+                <td className="p-3 font-medium">{row.vehicleNumber}</td>
+                <td className="p-3 font-medium">{row.depot}</td>
+                <td className="p-3 font-medium">{row.route}</td>
+                <td className="p-3 font-medium">{row.currentLocation}</td>
+                <td className="p-3 font-medium">{row.status}</td>
+                <td className="p-3 font-medium">
                   <a
                     href={row.liveFeed}
                     className="text-blue-600 underline"
@@ -109,12 +109,12 @@ export default function LiveFleetTracking({ data }) {
                     Video Link
                   </a>
                 </td>
-                <td className="p-3">
+                <td className="p-3 font-medium">
                   <button className="bg-indigo-600 text-white px-3 py-1 rounded-lg text-xs">
                     Call Now
                   </button>
                 </td>
-                <td className="p-3">{row.driver}</td>
+                <td className="p-3 font-medium">{row.driver}</td>
               </tr>
             ))}
           </tbody>

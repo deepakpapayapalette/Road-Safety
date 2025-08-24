@@ -104,3 +104,7 @@
     padding: 0;
 }
 
+.css-17cwzu3-MuiButtonBase-root-MuiIconButton-root:hover{
+  background-color: transparent !important;
+}
+

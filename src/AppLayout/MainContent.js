@@ -15,25 +15,30 @@ import DriverHealthTable from '../components/AgeGroupSegregation/DriverHealthTab
 import DriverHealthTable2 from '../components/AgeGroupSegregation/DriverHealthTable2'
 import DriveRatingQuickAction from '../components/DriveRatingQuickActions/DriveRatingQuickAction'
 import Overview from '../components/Overview/Overview'
+// import Page2 from '../pages/Page2'
+
+
 
 const MainContent = () => {
   return (
     <>
-       <main className="app-content px-2pb-5 " >
-          <PrimaryFilter />
-          <Overview />
-          <DriveRatingQuickAction/>
-          <LiveFleetTracking data={fleetData  } />
-          <ViolationCards violations={violations} />
-          <ViolationTracker/>
-          <ViolationTrackerGraph/>
-          <FitnessAssessment/>
-          <DriverHabits/> 
-          <HealthAssessmentSummary/> 
-          <HealthAssessmentTable/>
-          <AgeGroupSegregation/>
-          <DriverHealthTable/>
-          <DriverHealthTable2/>
+      <main className="app-content px-2pb-5 " >
+        <PrimaryFilter />
+        <Overview />
+        <DriveRatingQuickAction/>
+        <LiveFleetTracking data={fleetData  } />
+             {/* <Page2/> */}
+        <ViolationCards violations={violations} />
+        <ViolationTracker/>
+        <ViolationTrackerGraph/>
+        <FitnessAssessment/>
+        <DriverHabits/> 
+        <HealthAssessmentSummary/> 
+        <HealthAssessmentTable/>
+        <AgeGroupSegregation/>
+        <DriverHealthTable/>
+        <DriverHealthTable2/>
+ 
       </main>
     </>
   )

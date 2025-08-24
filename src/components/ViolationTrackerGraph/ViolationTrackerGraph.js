@@ -49,7 +49,7 @@ export default function ViolationTrackerGraph() {
   
   return (
     <> 
-    <div className="p-6 bg-gray-50 rounded-xl shadow-sm space">
+    <div className="p-6  space">
       <div className="flex justify-between items-center mb-2">
         <h2 className="text-sm font-semibold">Violation Tracker graphs</h2>
         <select
