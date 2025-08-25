@@ -21,7 +21,6 @@ const DriveSafeRating3 = () => {
           textColor="transparent" // Hide default text
         />
       </div>
-
       {/* Rank */}
       <p className="text-xl font-semibold text-[#8ea500] mt-[-20px] mb-1">
         Rank {rank}
