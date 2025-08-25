@@ -13,7 +13,6 @@ const collapsedWidth = 60;
 
 export default function DashboardLayout() {
   const [open, setOpen] = useState(true);
-  
     const toggleDrawer = () => {
       setOpen(!open);
     };
