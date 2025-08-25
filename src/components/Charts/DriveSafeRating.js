@@ -17,21 +17,21 @@ export default function DriveSafeRating({ rank, lastYearRank, changePercent }) {
       <div className="flex justify-center" >
         <RadialBarChart
           width={200}
-          height={120}
-          innerRadius="80%"
-          outerRadius="100%"
+          height={150}
+          innerRadius="50%"
+          outerRadius="80%"
           data={data}
           startAngle={180}
-          endAngle={3}
+          endAngle={4}
         >
           <PolarAngleAxis type="number" domain={[0, 100]} tick={false} />
-          <RadialBar dataKey="value" cornerRadius={10} barSize={50} />
+          <RadialBar dataKey="value" cornerRadius={4} barSize={16} />
         </RadialBarChart>
       </div>
 
       {/* Rank in middle */}
       <div className="relative -mt-16">
-        <p className="text-green-600 text-lg font-semibold">Rank {rank}</p>
+        <p className="text-[#8ea500] text-lg font-semibold">Rank {rank}</p>
       </div>
 
       {/* Change info */}
