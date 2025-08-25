@@ -26,7 +26,6 @@ const DriveSafeRating3 = () => {
       <p className="text-xl font-semibold text-[#8ea500] mt-[-20px] mb-1">
         Rank {rank}
       </p>
-
       {/* Changes from last year */}
       <p className="text-gray-600 mb-0">
         Changes from last year{" "}
