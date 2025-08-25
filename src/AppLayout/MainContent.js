@@ -15,6 +15,7 @@ import DriverHealthTable from '../components/AgeGroupSegregation/DriverHealthTab
 import DriverHealthTable2 from '../components/AgeGroupSegregation/DriverHealthTable2'
 import DriveRatingQuickAction from '../components/DriveRatingQuickActions/DriveRatingQuickAction'
 import Overview from '../components/Overview/Overview'
+
 // import Page2 from '../pages/Page2'
 
 
