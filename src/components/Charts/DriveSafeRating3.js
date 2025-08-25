@@ -10,7 +10,6 @@ const DriveSafeRating3 = () => {
     <div className="text-center">
       {/* Title */}
       <h2 className="text-lg text-left font-semibold text-gray-900">Drive Safe Rating</h2>
-
       {/* Gauge */}
       <div className="mt-1">
         <GaugeChart
